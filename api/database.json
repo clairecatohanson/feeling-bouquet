@@ -1,0 +1,175 @@
+{
+  "flowers": [
+    {
+      "id": 1,
+      "commonName": "Rose",
+      "color": "yellow"
+    },
+    {
+      "id": 2,
+      "commonName": "Orchid",
+      "color": "blue"
+    },
+    {
+      "id": 3,
+      "commonName": "Lily",
+      "color": "white"
+    },
+    {
+      "id": 4,
+      "commonName": "Peony",
+      "color": "pink"
+    },
+    {
+      "id": 5,
+      "commonName": "Carnation",
+      "color": "red"
+    }
+  ],
+  "retailers": [
+    {
+      "id": 1,
+      "name": "Spring Flowers",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "address": "123 21st Avenue South",
+      "distributorId": 1
+    },
+    {
+      "id": 2,
+      "name": "Petal Paradise",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "address": "456 Peachtree Street",
+      "distributorId": 3
+    },
+    {
+      "id": 3,
+      "name": "Blossom Boutique",
+      "city": "Chattanooga",
+      "state": "Tennessee",
+      "address": "7890 Lookout Mountain Parkway",
+      "distributorId": 3
+    },
+    {
+      "id": 4,
+      "name": "Beale Street Blooms",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "address": "149 Beale Street",
+      "distributorId": 2
+    },
+    {
+      "id": 5,
+      "name": "Clarksville",
+      "city": "Wildflower Wonder",
+      "state": "Tennessee",
+      "address": "9456 Main Street",
+      "distributorId": 1
+    }
+  ],
+  "distributors": [
+    {
+      "id": 1,
+      "name": "Middle Tennessee Flower Depot",
+      "city": "Murfreesboro",
+      "state": "Tennessee"
+    },
+    {
+      "id": 2,
+      "name": "West Tennessee Blooms",
+      "city": "Jackson",
+      "state": "Tennessee"
+    },
+    {
+      "id": 3,
+      "name": "Southeast Florals",
+      "city": "Atlanta",
+      "state": "Georgia"
+    }
+  ],
+  "nurseries": [
+    {
+      "id": 1,
+      "name": "Baby Blossoms"
+    },
+    {
+      "id": 2,
+      "name": "Springtime Sprigs"
+    },
+    {
+      "id": 3,
+      "name": "Fledgling Flowers"
+    },
+    {
+      "id": 4,
+      "name": "Growing Greens"
+    },
+    {
+      "id": 5,
+      "name": "Vibrant Vines"
+    }
+  ],
+  "flowerBatches": [
+    {
+      "id": 1,
+      "nurseryId": 1,
+      "flowerId": 3,
+      "distributorId": 1
+    },
+    {
+      "id": 2,
+      "nurseryId": 1,
+      "flowerId": 5,
+      "distributorId": 2
+    },
+    {
+      "id": 3,
+      "nurseryId": 2,
+      "flowerId": 1,
+      "distributorId": 3
+    },
+    {
+      "id": 4,
+      "nurseryId": 2,
+      "flowerId": 2,
+      "distributorId": 1
+    },
+    {
+      "id": 5,
+      "nurseryId": 3,
+      "flowerId": 4,
+      "distributorId": 1
+    },
+    {
+      "id": 6,
+      "nurseryId": 3,
+      "flowerId": 5,
+      "distributorId": 3
+    },
+    {
+      "id": 7,
+      "nurseryId": 4,
+      "flowerId": 1,
+      "distributorId": 2
+    },
+    {
+      "id": 8,
+      "nurseryId": 4,
+      "flowerId": 2,
+      "distributorId": 3
+    },
+    {
+      "id": 9,
+      "nurseryId": 5,
+      "flowerId": 3,
+      "distributorId": 2
+    },
+    {
+      "id": 10,
+      "nurseryId": 5,
+      "flowerId": 4,
+      "distributorId": 1
+    }
+  ]
+}
